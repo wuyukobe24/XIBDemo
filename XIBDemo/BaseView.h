@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseView.h
 //  XIBDemo
 //
 //  Created by WangXueqi on 2017/12/23.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseView : UIView
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
-

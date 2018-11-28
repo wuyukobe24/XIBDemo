@@ -19,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //test
     //fork111
+    //master
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     MainViewController * main = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:[NSBundle mainBundle]];
